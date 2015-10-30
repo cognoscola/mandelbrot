@@ -2,9 +2,13 @@ Here are some interesting coordinates to check out with the program above
 
 
 mpirun -np 8 ./julia 1 -0.4 0.621  -0.3 0 0  0.3  4000 4000 100  image1.bmp stats-1.txt
+
 mpirun -np 8 ./julia 1 -0.8  0.156  -.2 .2 -.2 .2 4000 4000 10000  image2.bmp stats-2.txt 
+
 mpirun -np 8 ./julia 1 -0.8  0.156  -.625 -.425 -.1 .3 4000 4000 40  image3.bmp stats-3.txt
+
 mpirun -np 8 ./julia 1 -0.8  0.156  -2 2 -2 2 4000 4000 200  image4.bmp stats-4.txt
+
 mpirun -np 4 ./julia 0 -0.4 0.6  -0.181862 -0.181772 1.019085 1.019175 4000 4000 1000  image-5.bmp stats-5.txt
 
 Some Observations:
