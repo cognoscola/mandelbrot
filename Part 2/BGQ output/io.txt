@@ -1,0 +1,41 @@
+mpirun -np 4 ./julia test1.txt
+Opening: test1.txt
+1
+1
+1
+0.0415373652931074065807663354
+0.9852917590051861164247007078
+1.5e-27
+1.5e-27
+1000
+1000
+4000
+afile.bmp
+my rank is 2 and my image file is afile.bmp
+1
+my rank is 3 and my image file is afile.bmp
+1
+my rank is 0 and my image file is afile.bmp
+1
+my rank is 1 and my image file is afile.bmp
+1
+cr = 0.0000000000000000000000000000000000000000, ci = 0.0000000000000000000000000000000000000000
+cr = 0.0000000000000000000000000000000000000000, ci = 0.0000000000000000000000000000000000000000
+cr = 0.0000000000000000000000000000000000000000, ci = 0.0000000000000000000000000000000000000000
+numpixels = 1000000
+rank = 1 timer starting
+numpixels = 1000000
+numpixels = 1000000
+cr = 0.0000000000000000000000000000000000000000, ci = 0.0000000000000000000000000000000000000000
+rank = 2 timer starting
+rank = 3 timer starting
+numpixels = 1000000
+rank = 0 timer starting
+rank = 1 not crashed after getting time
+rank = 3 not crashed after getting time
+rank = 2 not crashed after getting time
+rank = 0 not crashed after getting time
+rank = 2, total = 0
+rank = 3, total = 0
+rank = 1, total = 0
+rank = 0, total = 0

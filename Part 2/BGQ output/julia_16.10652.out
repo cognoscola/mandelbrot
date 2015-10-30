@@ -1,0 +1,14 @@
+Opening: params.dat
+0
+1
+1
+0.29449234078335689067
+-0.016335565476402559131
+6.6461593173361421805E-17
+6.6383666142214026173E-17
+1200
+1200
+70000
+afile.bmp
+2014-03-08 20:05:24.065 (WARN ) [0x40000d08b30] :ibm.runjob.LogSignalInfo: received signal 24
+2014-03-08 20:05:24.066 (WARN ) [0x40000d08b30] :ibm.runjob.LogSignalInfo: signal sent from USER
